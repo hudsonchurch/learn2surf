@@ -221,7 +221,7 @@ function QuizHeader({ current, total, onBack }) {
         fontFamily: fontH, fontSize: 16, fontWeight: 600,
         color: P.navy, letterSpacing: -0.3,
       }}>
-        Learn2Surf<span style={{ color: P.ocean }}>SD</span>
+        Learn2Surf<span style={{ color: P.ocean }}> San Diego</span>
       </div>
       <div style={{
         fontFamily: fontB, fontSize: 12, fontWeight: 600,
