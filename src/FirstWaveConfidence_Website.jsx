@@ -38,11 +38,17 @@ const P = {
 };
 
 // ─── STYLES ───
-const fontStack = "'Playfair Display','Georgia','Times New Roman',serif";
-const bodyStack = "'DM Sans','Helvetica Neue','Helvetica',sans-serif";
+const fontStack = "'NumberBubble','Playfair Display','Georgia','Times New Roman',serif";
+const bodyStack = "'NumberBubble','DM Sans','Helvetica Neue','Helvetica',sans-serif";
 
 const css = `
-  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Fredoka:wght@500;600;700&display=swap');
+
+  @font-face {
+    font-family: 'NumberBubble';
+    src: local('Fredoka');
+    unicode-range: U+30-39;
+  }
   
   * { margin: 0; padding: 0; box-sizing: border-box; }
   html { scroll-behavior: smooth; }
