@@ -967,7 +967,7 @@ function Footer() {
         fontFamily: fontStack, fontSize: 20, fontWeight: 700,
         color: P.white, letterSpacing: -0.5, marginBottom: 12,
       }}>
-        First Wave<span style={{ color: P.ocean }}> Confidence</span>
+        Learn2Surf<span style={{ color: P.ocean }}>SD</span>
       </div>
       <p style={{
         fontFamily: bodyStack, fontSize: 13,
