@@ -114,7 +114,7 @@ function Nav({ onBook }) {
       display: "flex", justifyContent: "space-between", alignItems: "center",
     }}>
       <div style={{
-        fontFamily: fontStack, fontSize: 20, fontWeight: 700,
+        fontFamily: fontStack, fontSize: 28, fontWeight: 700,
         color: scrolled ? P.navy : P.white,
         letterSpacing: -0.5, transition: "color 0.35s",
       }}>
@@ -964,7 +964,7 @@ function Footer() {
       textAlign: "center",
     }}>
       <div style={{
-        fontFamily: fontStack, fontSize: 20, fontWeight: 700,
+        fontFamily: fontStack, fontSize: 28, fontWeight: 700,
         color: P.white, letterSpacing: -0.5, marginBottom: 12,
       }}>
         Learn2Surf<span style={{ color: P.ocean }}> San Diego</span>
