@@ -118,7 +118,7 @@ function Nav({ onBook }) {
         color: scrolled ? P.navy : P.white,
         letterSpacing: -0.5, transition: "color 0.35s",
       }}>
-        First Wave<span style={{ color: P.ocean }}> Confidence</span>
+        Learn2Surf<span style={{ color: P.ocean }}>SD</span>
       </div>
       <button onClick={onBook} className="fwc-btn fwc-btn-primary"
         style={{ padding: "10px 24px", fontSize: 14 }}>
@@ -994,7 +994,7 @@ function Footer() {
         fontFamily: bodyStack, fontSize: 11,
         color: "rgba(255,255,255,0.25)",
       }}>
-        © 2026 First Wave Confidence. San Diego, CA.
+        © 2026 Learn2SurfSD. San Diego, CA.
       </p>
     </footer>
   );
